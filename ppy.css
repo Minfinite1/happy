@@ -1,0 +1,82 @@
+h1,h1+p {
+    text-align: center;
+}
+form {
+    width: 60vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(30,0,100,0.8);
+}
+p {
+    display: block;
+}
+input,select {
+    display: block;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+textarea {
+    height: 80px;
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0.5em 0;
+    width: unset;
+}
+fieldset {
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding: 20px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+body {
+    font-size: 20px;
+    background-image: url("fashion-person-hands-1263986.jpg");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    position: relative;
+}
+label {
+    display: block;
+}
+input {
+    margin-bottom: 20px;
+}
+input::placeholder,textarea::placeholder {
+    font-style: italic;
+}
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(30,0,100,0.5);
+    z-index: 1;
+}
+.form-container {
+    z-index: 2;
+    position: relative;
+    background-color:
+}
+fieldset {
+    border: none;
+}
+h1, h1+p {
+    z-index: 3;
+    color: aliceblue;
+}
